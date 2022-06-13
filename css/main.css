@@ -1,0 +1,263 @@
+body {
+  font-family: "Gotham Thin";
+}
+
+.container {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #6d58ad;
+  margin-top: 1rem;
+}
+.header__calendario {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+.header__dias {
+  font-size: 0.8rem;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+  grid-template-columns: repeat(7, 1fr);
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+.header__dias > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.header__dias > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+.header__dias > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.header__dias > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+.header__dias > *:nth-child(5) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.header__dias > *:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+}
+.header__dias > *:nth-child(7) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.title-mes {
+  font-size: 0.9rem;
+  font-family: Gotham;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.dias {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+  grid-template-columns: repeat(7, 1fr);
+  -ms-grid-rows: 1fr 1.8rem 1fr 1.8rem 1fr 1.8rem 1fr 1.8rem 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 1.8rem;
+}
+
+.dias > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.dias > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.dias > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.dias > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.dias > *:nth-child(5) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.dias > *:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+}
+
+.dias > *:nth-child(7) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.dias > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.dias > *:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+
+.dias > *:nth-child(10) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.dias > *:nth-child(11) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+}
+
+.dias > *:nth-child(12) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.dias > *:nth-child(13) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+}
+
+.dias > *:nth-child(14) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+
+.dias > *:nth-child(15) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+
+.dias > *:nth-child(16) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+}
+
+.dias > *:nth-child(17) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+
+.dias > *:nth-child(18) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+}
+
+.dias > *:nth-child(19) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+
+.dias > *:nth-child(20) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+}
+
+.dias > *:nth-child(21) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 7;
+}
+
+.dias > *:nth-child(22) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+}
+
+.dias > *:nth-child(23) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+}
+
+.dias > *:nth-child(24) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
+}
+
+.dias > *:nth-child(25) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 4;
+}
+
+.dias > *:nth-child(26) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 5;
+}
+
+.dias > *:nth-child(27) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 6;
+}
+
+.dias > *:nth-child(28) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 7;
+}
+
+.dias > *:nth-child(29) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+}
+
+.dias > *:nth-child(30) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 2;
+}
+
+.dias > *:nth-child(31) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 3;
+}
+
+.dias > *:nth-child(32) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 4;
+}
+
+.dias > *:nth-child(33) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 5;
+}
+
+.dias > *:nth-child(34) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 6;
+}
+
+.dias > *:nth-child(35) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 7;
+}
+.dias__anterior {
+  color: #837878;
+  text-align: center;
+}
+.dias__junio {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
